@@ -1,0 +1,26 @@
+main:
+  content:
+  - title: Docs
+    url: /docs/home.html
+  - title: Community
+    url: /community/
+  - title: Teach
+    url: /education/
+  - title: Play
+    url: https://play.kotlinlang.org
+subnav:
+  content:
+  - content:
+    - title: Overview
+      url: /community/
+      urlPattern: ^\/community\/$
+    - title: User Groups
+      url: /user-groups/user-group-list.html
+      urlPattern: /user-groups.*
+    - title: Events
+      url: /community/events.html
+      urlPattern: ^\/community\/(events\.html|kotlin-nights.*)
+    - title: Talks & Speakers
+      url: /community/talks.html
+    url: /community/
+  type: tab
