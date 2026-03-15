@@ -34,6 +34,9 @@ export const OverviewPage = () => (
     </ThemeProvider>
 )
 
-const container = document.getElementById('react-app')
+// const container = document.getElementById('react-app')
 
-ReactDOM.render(<OverviewPage/>, container);
+//  ReactDOM.render(<OverviewPage/>, container);
+
+// ZRÓB TO:
+export default OverviewPageContent;

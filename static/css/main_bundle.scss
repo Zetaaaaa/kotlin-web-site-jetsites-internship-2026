@@ -1,0 +1,12 @@
+// 1. ZMIENNE I FONT (Fundament, nie generuje CSS, ale daje zmienne)
+// Sprawdź czy w util masz plik _variables.scss lub _index.scss
+@import "./util/adaptive"; // Jeśli masz tam plik index
+@import "./config/font"; 
+
+// 2. RESET I BAZA (Tu zaczyna się generowanie stylów)
+@import "./reset";
+@import "./base"; // base.scss teraz będzie widział zmienne z util
+
+// 3. UKŁAD I STYLE WIZUALNE
+@import "./grid";
+@import "./styles-v2";

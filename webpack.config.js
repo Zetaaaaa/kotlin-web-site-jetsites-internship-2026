@@ -20,7 +20,7 @@ module.exports = (params = {}) => {
     entry: {
       //shared
       'common': './static/js/page/common.js',
-      'index': './static/js/page/index/index.js',
+      'index': './static/js/page/index/index.jsx',
       'styles-v2': './static/css/styles-v2.scss'
     },
 
